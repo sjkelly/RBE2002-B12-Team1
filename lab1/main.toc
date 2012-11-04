@@ -1,0 +1,28 @@
+\contentsline {section}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {2}Method}{3}
+\contentsline {subsection}{\numberline {2.1}RLC Circuits}{3}
+\contentsline {subsection}{\numberline {2.2}Operational Amplifiers}{3}
+\contentsline {subsection}{\numberline {2.3}Load Effect}{3}
+\contentsline {subsection}{\numberline {2.4}Amplification}{3}
+\contentsline {subsection}{\numberline {2.5}Filtering}{3}
+\contentsline {subsection}{\numberline {2.6}Operations with Amplifiers}{3}
+\contentsline {subsubsection}{\numberline {2.6.1}Using the Multisim simulator}{3}
+\contentsline {section}{\numberline {3}Results}{3}
+\contentsline {subsection}{\numberline {3.1}RLC Circuits}{3}
+\contentsline {subsection}{\numberline {3.2}Operational Amplifiers}{3}
+\contentsline {subsection}{\numberline {3.3}Load Effect}{3}
+\contentsline {subsection}{\numberline {3.4}Amplification}{3}
+\contentsline {subsection}{\numberline {3.5}Filtering}{3}
+\contentsline {subsection}{\numberline {3.6}Operations with Amplifiers}{3}
+\contentsline {subsubsection}{\numberline {3.6.1}Using the Multisim simulator}{3}
+\contentsline {section}{\numberline {4}Discussion}{3}
+\contentsline {subsection}{\numberline {4.1}RLC Circuits}{3}
+\contentsline {subsection}{\numberline {4.2}Operational Amplifiers}{3}
+\contentsline {subsection}{\numberline {4.3}Load Effect}{3}
+\contentsline {subsection}{\numberline {4.4}Amplification}{3}
+\contentsline {subsection}{\numberline {4.5}Filtering}{3}
+\contentsline {subsection}{\numberline {4.6}Operations with Amplifiers}{3}
+\contentsline {subsubsection}{\numberline {4.6.1}Using the Multisim simulator}{3}
+\contentsline {section}{\numberline {5}Conclusion}{3}
+\contentsline {section}{\numberline {A}Raw data}{5}
+\contentsline {section}{\numberline {B}A {\tt physica} macro}{6}

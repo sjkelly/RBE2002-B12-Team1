@@ -1,0 +1,174 @@
+% modified from http://www.physics.brocku.ca/doc/sample_lab_report
+\documentclass[12pt]{article}
+\usepackage{graphicx, natbib}
+\addtolength{\textwidth}{1in}
+\addtolength{\textheight}{1in}
+\addtolength{\evensidemargin}{0.5in}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\topmargin}{-0.5in}
+%macros
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+
+\begin{document}
+    
+    %Title and Abstract
+    \input{./title.tex}
+    %End First page
+    
+    %put table of contents
+    \tableofcontents
+    \clearpage 
+
+    % Introduction 
+    \section{Introduction}
+    The purpose of this experiment is to determine 
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+     
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+    xxx xxxxx xxxxx xxx xxxx xxxx~\cite{adams1995hitchhiker} xxxx xxxxx xxxx xxxxxxxxx 
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+    This is the way to insert a figure or simply 
+    leave some white space for a figure that is to be 
+    pasted in later, like a photo or a hand-drawn sketch.  As seen in
+    Figure~\ref{fig:picture}, 
+    
+        %Insert Picture
+        \begin{figure}
+        \begin{center}
+        \includegraphics{wpi_logo.jpg}
+        \end{center}
+        \caption{This is the caption for the picture.}
+        \label{fig:picture}
+        \end{figure}
+    
+    everything is clear.
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+    
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+    Text before the footnote.\footnote{Here's the text of the footnote.}
+    Text after the footnote. xxxx xxxxx xxxx xxxxx xxxxx xxxx xxxxxxxxx
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+
+    %End Introduction
+    
+    \section{Method}
+        \subsection{RLC Circuits}
+        \subsection{Operational Amplifiers}
+        \subsection{Load Effect}
+        \subsection{Amplification}
+        \subsection{Filtering}
+        \subsection{Operations with Amplifiers}
+            \subsubsection{Using the Multisim simulator}
+            
+            
+    \section{Results}
+        \subsection{RLC Circuits}
+        \subsection{Operational Amplifiers}
+        \subsection{Load Effect}
+        \subsection{Amplification}
+        \subsection{Filtering}
+        \subsection{Operations with Amplifiers}
+            \subsubsection{Using the Multisim simulator}
+
+
+    \section{Discussion}
+        \subsection{RLC Circuits}
+        \subsection{Operational Amplifiers}
+        \subsection{Load Effect}
+        \subsection{Amplification}
+        \subsection{Filtering}
+        \subsection{Operations with Amplifiers}
+            \subsubsection{Using the Multisim simulator}
+    
+    \section{Conclusion}
+    In conclusion, this experiment 
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx
+    xxxxxxxxx xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+
+    %insert Bibliography
+    \bibliographystyle{plain}
+    \bibliography{references}
+
+    %start appendix
+    \appendix
+    \cleardoublepage
+
+    \section{Raw data}
+    \label{app:data}
+    
+    \begin{table}[h]
+    \caption{Resistance and Temperature of the Filament}
+    \label{tab:data}
+    \vspace{0.15in}
+    \begin{center}
+    \begin{tabular}{|c|c|c|c|}
+    \hline
+    $R(T)$, $\Omega$ & $T$, K & $1/T$, K$^{-1}$ & $\ln P$ \\
+    \hline
+    151.00$\pm$3.92 & 828.35$\pm$23.46& $1.2072\times10^{-3}$& -13.29 \\
+    157.12$\pm$3.71 & 856.88$\pm$22.25& $1.1671\times10^{-3}$& -12.64 \\
+    162.53$\pm$3.49 & 881.99$\pm$21.02& $1.1338\times10^{-3}$& -12.33 \\
+    166.67$\pm$3.33 & 901.14$\pm$20.13& $1.1097\times10^{-3}$& -11.90 \\
+    171.84$\pm$3.17 & 924.98$\pm$19.25& $1.0811\times10^{-3}$& -11.25 \\ 
+    176.84$\pm$3.04 & 947.96$\pm$18.53& $1.0549\times10^{-3}$& -10.77 \\
+    181.46$\pm$2.90 & 969.13$\pm$15.49& $1.0319\times10^{-3}$& -10.20 \\
+    186.49$\pm$2.79 & 992.09$\pm$17.18& $1.0080\times10^{-3}$& -9.66 \\
+    190.91$\pm$2.69 & 1012.21$\pm$16.65& $9.8794\times10^{-4}$& -9.13 \\
+    195.48$\pm$2.59 & 1032.95$\pm$16.45& $9.6811\times10^{-4}$& -8.60 \\
+    199.93$\pm$2.50 & 1053.08$\pm$15.65& $9.4960\times10^{-4}$& -8.10 \\
+    204.47$\pm$2.41 & 1073.56$\pm$15.19& $9.3148\times10^{-4}$& -7.63 \\
+    208.62$\pm$2.34 & 1092.22$\pm$14.83& $9.1556\times10^{-4}$& -7.16 \\
+    \hline
+    \end{tabular}
+    \end{center}  
+    \end{table}
+
+    \newpage
+    \section{A {\tt physica} macro}
+    \label{app:macro}
+    This {\tt physica} macro was used to generate the plot of Figure
+    as well as to fit xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+    
+    {\tt 
+    \begin{verbatim}
+    
+          ! exp_3.pcm
+          clear
+          
+          ! read in the data
+          read\format\noerror exp_3.dat (*) x,y,dy
+    
+          ! plot the data
+          label\x `Voltage, V'
+          label\y `Power, W'
+          set colour 1 1
+          set pchar -4
+          graph x,y,dy
+    
+          ! fit and plot the curve
+          scalar\vary A,T,w,phi
+          ! initial values for parameters
+          A=2.3
+          w=6.5
+          phi=0
+          T=10.
+    
+          fit y=A*cos(w*x+phi)*exp(-x**2/T)
+          fit\update f
+          set colour 2 2
+          set pchar 0
+          graph\noaxes x,f
+    
+    \end{verbatim}
+    }
+\end{document}
+
