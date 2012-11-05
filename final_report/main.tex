@@ -1,0 +1,168 @@
+% modified from http://www.physics.brocku.ca/doc/sample_lab_report
+\documentclass[12pt]{article}
+\usepackage{graphicx, natbib, amsmath}
+\addtolength{\textwidth}{1in}
+\addtolength{\textheight}{1in}
+\addtolength{\evensidemargin}{0.5in}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\topmargin}{-0.5in}
+%macros
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+
+\begin{document}
+    
+    %Title and Abstract
+    \input{./title.tex}
+    %End First page
+    
+    %put table of contents
+    \tableofcontents
+    \clearpage 
+
+    % Introduction 
+    \section{Introduction}
+		The goal of the final project is to incorporate sensing, filtering, and control systems into a whiteboard erasing robot. The robot is required to he	robot,	which	your	team	must	design	and	build,	must	hang	from	the	support	
+cable	using	the	supplied	hook.		The	robot	must	incorporate	a	whiteboard	eraser,	
+which	will	be	provided	to	you	in	the	KOP.	You	may	modify	the	eraser	(within	
+reason)	to	meet	your	design	needs.	
+The	eraser	must	have	a	‘complicated’	motion	to	it	as	it	erases.		It	will	not	be	
+acceptable	to	simply	mount	the	eraser	on	the	end	of	a	motor	shaft	and	spin	it.	
+The	robot	should	be	able	to	use	the	eraser	to	clean	the	whiteboard.	The	robot	will	be	
+semi‐autonomous.	It	must	be	capable	of	performing	teleoperated	subtasks	and	
+autonomous	subtasks.		You	will	have	a	VEX	radio	transmitter	and	receiver	in	your	
+KOP	to	provide	teleoperator	control	of	the	Eraserbot.	
+The	sequence	of	the	operations	will	be	as	follows:	
+ The	robot	should	hang	on	the	whiteboard	in	a	given	position	and	wait	for	a	
+   starting	command.		You	will	most	likely	want	to	use	manual	control	of	the	
+  shuttle/winch	motors	via	the	Vex	radio	to	control	this	operation,	but	it	may	
+ optionally	be	performed	automatically	if	you	wish	(see	below).	
+The	erasing	subtask	will	be	autonomous.		The	robot	will	need	to	deploy	the	
+   eraser	to	make	contact	with	the	whiteboard.		It	is	responsible	for	erasing	the	
+  whiteboard	to	within	1”	of	the	edge	of	the	window	frame.		When	it	is	done	
+   erasing	an	area	it	should	retract	the	eraser	so	it	can	(optionally)	move	to	another	
+  area	to	be	erased.		Note	well:	The	robot	will	need	to	be	in	contact	with	the	
+ whiteboard	at	additional	points/areas	beyond	the	eraser	surface	in	order	to	
+successfully	erase	the	board.	
+The	teleoperator	can	restart	the	erasing	subtask.		The	teleoperator	can	stop	the	
+   erasing	subtask	at	any	time.	
+
+    everything is clear.
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+    
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+    Text before the footnote.\footnote{Here's the text of the footnote.}
+    Text after the footnote. xxxx xxxxx xxxx xxxxx xxxxx xxxx xxxxxxxxx
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+
+    %End Introduction
+    
+		\section{Method}
+
+			Wat gose hre?
+	
+    \section{Analysis}
+        \subsection{Eraser Friction}
+
+				The central goal of the final project is to successfully execute force sensing.
+				Calculating the coefficient of friction between the eraser and the white board was a simple metric to discover.
+				A tilt jig was setup to find this value. <TODO: image in appendix> The coefficient of friction,
+				$\mu_k$, is equal to $\tan(\theta)$. The angle $\theta$ is the angle at which the eraser begins to fall. The results are seen below in Table~\ref{tab:eraser_friction}.
+					\begin{table}
+		  		\caption{Coefficient of Friction of the Eraser}
+		  		\label{tab:eraser_friction}
+		  		\vspace{0.15in}
+		  		\begin{center}
+		  		\begin{tabular}{|c|c|c|c|}
+		  		\hline
+		  		Fall angle ($^{\circ}$) & Additional Weight (g) & Location & $\mu_k$  \\
+		  		\hline
+					25 & 0 & 1 & .466 \\
+					25 & 0 & 1 & .466 \\
+					20 & 250 & 1 & .364 \\
+					20 & 250 & 1 & .364 \\
+					21 & 250 & 2 & .384 \\ 
+					21 & 250 & 2 & .384 \\
+					25 & 0 & 2 & .466 \\
+					25 & 0 & 2 & .466 \\
+					\hline
+					\end{tabular}
+					\end{center}  
+					\end{table}
+
+      	\subsection{Erasing Normal Force}
+				
+				In order to determine the minumum normal force required to erase, another test was performed. Weight was added to the top of the eraser. It was then pushed along the surface to qualitatively determine the effectiveness in erasing. <TODO:Table in appendix>. It was found a total mass of 550 grams to 600 grams was a desirable minimum normal force for erasing. This is about 5.4 Newtons of force.
+
+				\subsection{Spring Analysis}
+				
+				\subsection{Erasing Motion}
+
+				
+
+    \section{Results}
+        \subsection{Force Sensor}
+				
+				\subsection{Swing Arm}
+
+				\subsection{Erasing Motion}
+
+				\subsection{Software}
+
+    \section{Discussion}
+        \subsection{RLC Circuits}
+    
+    \section{Conclusion}
+    In conclusion, this experiment 
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx
+    xxxxxxxxx xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+    xxx xxxxx xxxxx xxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx
+
+		\section{Comments}
+
+    %insert Bibliography
+    \bibliographystyle{plain}
+    \bibliography{references}
+
+    %start appendix
+    \appendix
+    \cleardoublepage
+
+    \section{Raw data}
+    \label{app:data}
+    
+    \begin{table}[h]
+    \caption{Resistance and Temperature of the Filament}
+    \label{tab:data}
+    \vspace{0.15in}
+    \begin{center}
+    \begin{tabular}{|c|c|c|c|}
+    \hline
+    Fall angle ($10\,^{\circ}\mathrm{C}$), Additional Weight, K & $1/T$, K$^{-1}$ & $\ln P$ \\
+    \hline
+    151.00$\pm$3.92 & 828.35$\pm$23.46& $1.2072\times10^{-3}$& -13.29 \\
+    157.12$\pm$3.71 & 856.88$\pm$22.25& $1.1671\times10^{-3}$& -12.64 \\
+    162.53$\pm$3.49 & 881.99$\pm$21.02& $1.1338\times10^{-3}$& -12.33 \\
+    166.67$\pm$3.33 & 901.14$\pm$20.13& $1.1097\times10^{-3}$& -11.90 \\
+    171.84$\pm$3.17 & 924.98$\pm$19.25& $1.0811\times10^{-3}$& -11.25 \\ 
+    176.84$\pm$3.04 & 947.96$\pm$18.53& $1.0549\times10^{-3}$& -10.77 \\
+    181.46$\pm$2.90 & 969.13$\pm$15.49& $1.0319\times10^{-3}$& -10.20 \\
+    186.49$\pm$2.79 & 992.09$\pm$17.18& $1.0080\times10^{-3}$& -9.66 \\
+    190.91$\pm$2.69 & 1012.21$\pm$16.65& $9.8794\times10^{-4}$& -9.13 \\
+    195.48$\pm$2.59 & 1032.95$\pm$16.45& $9.6811\times10^{-4}$& -8.60 \\
+    199.93$\pm$2.50 & 1053.08$\pm$15.65& $9.4960\times10^{-4}$& -8.10 \\
+    204.47$\pm$2.41 & 1073.56$\pm$15.19& $9.3148\times10^{-4}$& -7.63 \\
+    208.62$\pm$2.34 & 1092.22$\pm$14.83& $9.1556\times10^{-4}$& -7.16 \\
+    \hline
+    \end{tabular}
+    \end{center}  
+    \end{table}
+
+    \newpage
+    \section{A {\tt physica} macro}
+\end{document}
+
